@@ -5,8 +5,7 @@
     name: "{{ nginx_package }}"
     state: installed
   tags: install_nginx
-  notify:
-    - restart nginx service
+  notify: restart nginx service
     
 
 - name: edit nginx.conf
