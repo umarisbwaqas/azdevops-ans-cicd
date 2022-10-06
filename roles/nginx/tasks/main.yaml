@@ -1,4 +1,6 @@
+
 - name: nginx is installed
+  become: true
   yum:
     name: "{{ nginx_package }}"
     state: installed
