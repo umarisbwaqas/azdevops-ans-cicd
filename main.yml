@@ -5,7 +5,7 @@
     vars:
       nginx_package: nginx
     tasks:
-    - name: nginx is installed
+    - name: install nginx
       become: true
       yum:
         name: "{{ nginx_package }}"
