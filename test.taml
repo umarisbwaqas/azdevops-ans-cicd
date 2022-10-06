@@ -1,0 +1,4 @@
+- hosts: "{{ host }}"
+  tasks:
+   - name: create a test file for ansible
+     shell: touch /tmp/tutorail.yml
