@@ -1,5 +1,5 @@
 - hosts: all
-  become: yes
-  become_method: sudo
+  become: true
+  #become_method: sudo
   roles:
     - nginx
