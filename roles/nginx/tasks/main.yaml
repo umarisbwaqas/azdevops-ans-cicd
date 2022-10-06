@@ -1,4 +1,4 @@
-
+---
 - name: nginx is installed
   become: true
   yum:
